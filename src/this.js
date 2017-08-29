@@ -84,24 +84,24 @@ var mango = {};
 
 // apple.method = fn;
 // apple.method();
-var fruitFunc1 = FRUIT_ASSIGNMENT.FIX_ME;
+var fruitFunc1 = FRUIT_ASSIGNMENT.APPLE;
 
 // fn(orange, pear);
-var fruitFunc2 = FRUIT_ASSIGNMENT.FIX_ME;
+var fruitFunc2 = FRUIT_ASSIGNMENT.WINDOW;
 
 // fn.call(apple, orange, pear);
-var fruitFunc3 = FRUIT_ASSIGNMENT.FIX_ME;
+var fruitFunc3 = FRUIT_ASSIGNMENT.APPLE;
 
 // apple.method.call(mango, orange, pear);
-var fruitFunc4 = FRUIT_ASSIGNMENT.FIX_ME;
+var fruitFunc4 = FRUIT_ASSIGNMENT.MANGO;
 
 // setTimeout(fn, 1000);
-var fruitFunc5 = FRUIT_ASSIGNMENT.FIX_ME;
+var fruitFunc5 = FRUIT_ASSIGNMENT.WINDOW;
 
 // setTimeout(apple.method, 1000);
-var fruitFunc6 = FRUIT_ASSIGNMENT.FIX_ME;
+var fruitFunc6 = FRUIT_ASSIGNMENT.WINDOW;
 
 // setTimeout(function() {
 //   apple.method(orange, pear);
 // });
-var fruitFunc7 = FRUIT_ASSIGNMENT.FIX_ME;
+var fruitFunc7 = FRUIT_ASSIGNMENT.APPLE;

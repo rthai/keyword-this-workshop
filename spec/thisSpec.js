@@ -19,7 +19,7 @@ describe('\'this\' Keyword Workshop', function() {
 
   describe('Fruit Assignment', function() {
     it('should return the right answer for fruitFunc', function() {
-      expect(fruitFunc1).to.equal('red');
+      expect(fruitFunc1).to.equal('apple');
     });
 
     it('should return the right answer for fruitFunc2', function() {
@@ -27,11 +27,11 @@ describe('\'this\' Keyword Workshop', function() {
     });
 
     it('should return the right answer for fruitFunc3', function() {
-      expect(fruitFunc3).to.equal('red');
+      expect(fruitFunc3).to.equal('apple');
     });
 
     it('should return the right answer for fruitFunc4', function() {
-      expect(fruitFunc4).to.equal('yellow');
+      expect(fruitFunc4).to.equal('mango');
     });
 
     it('should return the right answer for fruitFunc5', function() {
@@ -43,7 +43,7 @@ describe('\'this\' Keyword Workshop', function() {
     });
 
     it('should return the right answer for fruitFunc7', function() {
-      expect(fruitFunc7).to.equal('red');
+      expect(fruitFunc7).to.equal('apple');
     });
   });
 });
