@@ -20,7 +20,7 @@ var shoes = {
   }
 };
 
-var shoeFunc1 =  SHOE_ASSIGNMENT.FIX_ME; 
+var shoeFunc1 =  SHOE_ASSIGNMENT.OBJECT; 
 
 var shoes2 = {
   brand: 'Adidas',
@@ -33,7 +33,7 @@ var shoes2 = {
   }
 };
 
-var shoeFunc2 = SHOE_ASSIGNMENT.FIX_ME;
+var shoeFunc2 = SHOE_ASSIGNMENT.OBJECT;
 
 var shoes3 = {
   brand: "Puma",
@@ -45,7 +45,7 @@ var shoes3 = {
   }
 };
 
-var shoeFunc3 = SHOE_ASSIGNMENT.FIX_ME;
+var shoeFunc3 = SHOE_ASSIGNMENT.WINDOW;
 
 var shoes4 = {
   brand: "Puma",
@@ -58,7 +58,7 @@ var shoes4 = {
   }
 };
 
-var shoeFunc4 = SHOE_ASSIGNMENT.FIX_ME;
+var shoeFunc4 = SHOE_ASSIGNMENT.OBJECT;
 
 /*
   COLOR FUNCTIONS: Look at the commented function and determine what is 'this' would point at if the function were called
@@ -82,26 +82,26 @@ var orange = {};
 var pear = {};
 var mango = {};
 
-// red.method = fn;
-// red.method();
+// apple.method = fn;
+// apple.method();
 var fruitFunc1 = FRUIT_ASSIGNMENT.FIX_ME;
 
-// fn(green, blue);
+// fn(orange, pear);
 var fruitFunc2 = FRUIT_ASSIGNMENT.FIX_ME;
 
-// fn.call(red, green, blue);
+// fn.call(apple, orange, pear);
 var fruitFunc3 = FRUIT_ASSIGNMENT.FIX_ME;
 
-// red.method.call(yellow, green, blue);
+// apple.method.call(mango, orange, pear);
 var fruitFunc4 = FRUIT_ASSIGNMENT.FIX_ME;
 
 // setTimeout(fn, 1000);
 var fruitFunc5 = FRUIT_ASSIGNMENT.FIX_ME;
 
-// setTimeout(r.method, 1000);
+// setTimeout(apple.method, 1000);
 var fruitFunc6 = FRUIT_ASSIGNMENT.FIX_ME;
 
 // setTimeout(function() {
-//   red.method(green, blue);
+//   apple.method(orange, pear);
 // });
 var fruitFunc7 = FRUIT_ASSIGNMENT.FIX_ME;
