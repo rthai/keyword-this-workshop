@@ -17,7 +17,7 @@ Main patterns:
 # How to use repo:
 
 1. Fork this repo and clone to your local machine
-2. Open `this.js`. DO NOT OPEN `thisSpec.js` YET.
+2. Open `src/this.js`. DO NOT OPEN `spec/thisSpec.js` or `SpecRunner.html` YET.
 3. Code your solutions to the problems based on the prompts
 4. Review your solutions and once you're satisfied, open up `SpecRunner.html` to check your results.
 5. Learn from your results and revisit workshop as necessary.
